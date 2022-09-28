@@ -1,4 +1,3 @@
-// parte 2
 
 fetch('https://servicodados.ibge.gov.br/api/v1/localidades/regioes?orderBy=nome') // incluindo o ?orderBy=nome fica em ordem alfabética.
     .then((resposta) => resposta.json())
