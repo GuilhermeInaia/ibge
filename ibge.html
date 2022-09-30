@@ -38,7 +38,14 @@
 
     <form action="">
         <label for="">Cidade</label>
-        <select id="cidade" class="form-control mb-3">
+        <select onchange="procurarBairro()" id="cidade" class="form-control mb-3">
+            <option>--Selecione--</option>
+        </select>
+    </form>
+
+    <form action="">
+        <label for="">Bairro</label>
+        <select id="bairro" class="form-control mb-3">
             <option>--Selecione--</option>
         </select>
     </form>
